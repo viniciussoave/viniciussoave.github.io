@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Love;
+    src: url('./CuteLove.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(255,126,121);
+    background: rgb(255,126,121);
+    background: linear-gradient(135deg, rgba(255, 182, 193, 0.6) 0%, rgba(173, 216, 230, 1) 100%);
+    overflow: hidden;
+}
+
+.caixa{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 400px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.title{
+    font-family:Love;
+    font-weight: 100;
+}
+
+.btn{
+    color: white;
+    font-size: medium;
+    background-color: rgba(255, 182, 193, 0.6);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 7px;
+    width: 90%;
+    transition: background-color ease-in 0.1s;
+}
+
+.btn:hover{
+    background-color: rgba(235, 166, 176, 0.6);
+    cursor: pointer;
+}
